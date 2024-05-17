@@ -1,6 +1,6 @@
 summarize_by_category_and_month <- function(netting_data_with_category) {
   months <- lubridate::month(netting_data_with_category$Fecha, label = TRUE)
-  netting_data_with_category |> dplyr::mutate("Month" = lubridate::month(Fecha, label = TRUE))
+  netting_data_with_category |> dplyr::mutate("Month" = months)
 }
 
 get_incubation_category <- function(netting_data) {
