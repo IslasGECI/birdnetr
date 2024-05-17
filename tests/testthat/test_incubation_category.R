@@ -13,6 +13,10 @@ describe("Plot incubation categories", {
     expect_equal(obtained$plot$labels$y[[1]], expected_y)
     expected_title <- 2021
     expect_equal(obtained$plot$labels$title[[1]], expected_title)
+    expected_theme <- "white"
+    expect_equal(obtained$plot$theme$panel.background[[1]], expected_theme)
+    print(obtained$plot$theme$plot.title$face)
+    expect_equal(obtained$plot$theme$plot.title$face, "bold")
   })
 })
 
