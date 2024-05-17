@@ -28,7 +28,7 @@ describe("Plot incubation categories", {
     )
     obtained <- summarize_by_category_and_month(netting_data_with_category)
     expect_true("Month" %in% names(obtained))
-    obtained_month <- obtained["Month"]$Month[1]
+    obtained_month <- obtained[[1, "Month"]]
     print(obtained_month)
     expect_equal(obtained_month, "Apr")
     expected <- tibble::tibble(
