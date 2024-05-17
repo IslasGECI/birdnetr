@@ -1,3 +1,19 @@
+describe("Plot incubation categories", {
+  it("Test plot properties", {
+    assp_individual_per_category <- tibble::tibble(
+      Month = c(rep("Apr", 2), rep("May", 2)),
+      number_of_individuals = c(3, 7, 15, 2),
+      incubation_category = c(1, 5, 3, 5)
+    )
+    plt <- barchart_incubation_categories(assp_individual_per_category)
+    obtained <- ggplot2::ggplot_build(plt)
+    expected_x <- "Month"
+    expect_equal(obtained$plot$labels$x[[1]], expected_x)
+    expected_y <- "Proportion of individuals"
+    expect_equal(obtained$plot$labels$y[[1]], expected_y)
+  })
+})
+
 describe("filter rows of interest", {
   netting_data <- tibble::tibble(
     Especie = c("Hydrobates homochroa", "Pelecanus occidentalis", "Hydrobates melania", "Hydrobates homochroa"),
