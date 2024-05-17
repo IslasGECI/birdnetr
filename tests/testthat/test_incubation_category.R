@@ -4,13 +4,15 @@ describe("Plot incubation categories", {
       Month = c(rep("Apr", 2), rep("May", 2)),
       number_of_individuals = c(3, 7, 15, 2),
       incubation_category = c("1", "5", "3", "5"),
-      Year = rep(2021, 4)
     )
-    obtained <- barchart_incubation_categories(assp_individual_per_category)
+    year <- 2021
+    obtained <- barchart_incubation_categories(assp_individual_per_category, year)
     expected_x <- "Month"
     expect_equal(obtained$plot$labels$x[[1]], expected_x)
     expected_y <- "Proportion of individuals"
     expect_equal(obtained$plot$labels$y[[1]], expected_y)
+    expected_title <- 2021
+    expect_equal(obtained$plot$labels$title[[1]], expected_title)
   })
 })
 
