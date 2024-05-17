@@ -7,3 +7,8 @@ get_incubation_category <- function(netting_data) {
   cleaned_netting_data |>
     dplyr::mutate("incubation_category" = maped)
 }
+
+filter_assp_species <- function(netting_data) {
+  assp_name <- "Hydrobates homochroa"
+  netting_data |> dplyr::filter(Especie == assp_name)
+}
