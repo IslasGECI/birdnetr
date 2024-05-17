@@ -36,11 +36,6 @@ describe("Plot incubation categories", {
 
     expected_nrows <- 5
     expect_equal(nrow(obtained), expected_nrows)
-    expected <- tibble::tibble(
-      Month = c(rep("Apr", 2), rep("May", 3)),
-      number_of_individuals = c(2, 1, 1, 1, 1),
-      incubation_category = c("1", "2", "3", "4", "5"),
-    )
   })
 })
 
