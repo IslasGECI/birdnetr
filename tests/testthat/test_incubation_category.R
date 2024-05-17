@@ -1,4 +1,4 @@
-decribe("filter rows of interest", {
+describe("filter rows of interest", {
   netting_data <- tibble::tibble(
     Especie = c("Hydrobates homochroa", "Pelecanus occidentalis", "Hydrobates melania", "Hydrobates homochroa"),
     Isla = c(rep("Todos Santos", 3), "Coronado")
