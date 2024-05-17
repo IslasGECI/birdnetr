@@ -36,6 +36,6 @@ barchart_incubation_categories <- function(assp_individual_per_category, year) {
       "#003399",
       "#6666cc"
     ))
-  ggplot2::ggsave("prueba.png", plt, bg = "transparent")
+  ggplot2::ggsave("prueba.png", bg = "transparent")
   ggplot2::ggplot_build(plt)
 }
