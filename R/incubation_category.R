@@ -12,3 +12,10 @@ filter_assp_species <- function(netting_data) {
   assp_name <- "Hydrobates homochroa"
   netting_data |> dplyr::filter(Especie == assp_name)
 }
+
+filter_assp_species_in_todos_santos <- function(netting_data) {
+  island_name <- "Todos Santos"
+  netting_data |>
+    filter_assp_species() |>
+    dplyr::filter(Isla == island_name)
+}
