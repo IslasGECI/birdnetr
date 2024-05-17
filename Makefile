@@ -35,7 +35,9 @@ format:
       -e "style_dir('tests')" \
       -e "style_dir('tests/testthat')"
 
-init: setup tests
+init: init_github setup tests
+
+init_github:
 	git config --global --add safe.directory /workdir
 	git config --global user.name "Ciencia de Datos • GECI"
 	git config --global user.email "ciencia.datos@islas.org.mx"
@@ -69,8 +71,8 @@ setup: clean install
 install:
 	R -e "devtools::document()" && \
     R CMD build . && \
-    R CMD check templater_0.1.0.tar.gz && \
-    R CMD INSTALL templater_0.1.0.tar.gz
+    R CMD check birdnetr_0.1.0.tar.gz && \
+    R CMD INSTALL birdnetr_0.1.0.tar.gz
 
 tests:
 	Rscript -e "devtools::test(stop_on_failure = TRUE)"
