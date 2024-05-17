@@ -24,7 +24,17 @@ barchart_incubation_categories <- function(assp_individual_per_category, year) {
   plt <- ggplot2::ggplot(assp_individual_per_category, ggplot2::aes(fill = incubation_category, y = number_of_individuals, x = Month)) +
     ggplot2::geom_bar(position = "fill", stat = "identity") +
     ggplot2::ylab("Proportion of individuals") +
-    ggplot2::ggtitle(year)
+    ggplot2::ggtitle(year) +
+    ggplot2::labs(fill = "Patch") +
+    ggplot2::theme_classic() +
+    ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5))
+  ggplot2::scale_fill_manual(values = c(
+    "#99ccff",
+    "#66cc99",
+    "#339966",
+    "#003399",
+    "#6666cc"
+  ))
   ggplot2::ggsave("prueba.png")
   ggplot2::ggplot_build(plt)
 }
