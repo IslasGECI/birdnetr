@@ -1,3 +1,7 @@
+summarize_by_category_and_month <- function(netting_data_with_category) {
+  netting_data_with_category |> dplyr::mutate("Month" = 1)
+}
+
 get_incubation_category <- function(netting_data) {
   raw_categories <- c(0, 1, 1.5, 2, 3, 4, 4.5, 5)
   new_categories <- c(1, 2, 2, 3, 3, 4, 4, 1)
