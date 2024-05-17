@@ -28,12 +28,13 @@ describe("Plot incubation categories", {
       incubation_category = c("1", "1", "5", "4", "3", "2"),
     )
     obtained <- summarize_by_category_and_month(netting_data_with_category)
+    expect_true("Month" %in% names(obtained))
+    expect_equal(obtained[[1, "Month"]], "Apr")
     expected <- tibble::tibble(
       Month = c(rep("Apr", 2), rep("May", 3)),
       number_of_individuals = c(2, 1, 1, 1, 1),
       incubation_category = c("1", "2", "3", "4", "5"),
     )
-    expect_true("Month" %in% names(obtained))
   })
 })
 
