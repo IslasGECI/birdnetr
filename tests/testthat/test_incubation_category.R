@@ -7,4 +7,9 @@ describe("Obtain incubation categories", {
     expected_second_category <- 2
     expect_equal(obtained[[2, "incubation_category"]], expected_second_category)
   })
+  it("Categorizes rows", {
+    netting_dirty_data <- tibble::tibble(Puntuacion_parche_incubacion = c(5, 3, NA, 2, 3, NA, 4.5, 5))
+    obtained <- get_incubation_category(netting_dirty_data)
+    expect_equal(length(obtained), length(netting_dirty_data) - 2)
+  })
 })
