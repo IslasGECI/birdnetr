@@ -20,6 +20,23 @@ describe("Plot incubation categories", {
   })
 })
 
+
+describe("Plot incubation categories", {
+  it("Test plot properties", {
+    netting_data_with_category <- tibble::tibble(
+      Fecha = c("2020-04-12", "2020-04-01", "2020-05-08", "2020-05-13", "2020-05-21", "2020-04-07"),
+      incubation_category = c("1", "1", "5", "4", "3", "2"),
+    )
+    obtained <- summarize_by_category_and_month(netting_data_with_category)
+    expected <- tibble::tibble(
+      Month = c(rep("Apr", 2), rep("May", 3)),
+      number_of_individuals = c(2, 1, 1, 1, 1),
+      incubation_category = c("1", "2", "3", "4", "5"),
+    )
+    expect_true("Month" %in% names(obtained))
+  })
+})
+
 describe("filter rows of interest", {
   netting_data <- tibble::tibble(
     Especie = c("Hydrobates homochroa", "Pelecanus occidentalis", "Hydrobates melania", "Hydrobates homochroa"),
