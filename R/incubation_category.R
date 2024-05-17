@@ -28,14 +28,14 @@ barchart_incubation_categories <- function(assp_individual_per_category, year) {
     ggplot2::labs(fill = "Patch") +
     ggplot2::theme_classic() +
     ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5)) +
-    ggplot2::theme(plot.title = ggplot2::element_text(face = "bold"))
-  ggplot2::scale_fill_manual(values = c(
-    "#99ccff",
-    "#66cc99",
-    "#339966",
-    "#003399",
-    "#6666cc"
-  ))
-  ggplot2::ggsave("prueba.png")
+    ggplot2::theme(plot.title = ggplot2::element_text(face = "bold")) +
+    ggplot2::scale_fill_manual(values = c(
+      "#99ccff",
+      "#66cc99",
+      "#339966",
+      "#003399",
+      "#6666cc"
+    ))
+  ggplot2::ggsave("prueba.png", plt, bg = "transparent")
   ggplot2::ggplot_build(plt)
 }
