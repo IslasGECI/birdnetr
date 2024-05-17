@@ -1,4 +1,10 @@
 describe("Obtain incubation categories", {
+  it("Filter species of interest", {
+    netting_data <- tibble::tibble(Especie = c("Hydrobates homochroa", "Pelecanus occidentalis", "Hydrobates melania", "Hydrobates homochroa"))
+    obtained <- filter_assp_species(netting_data)
+    expected_len <- 2
+    expect_equal(nrow(obtained), expected_len)
+  })
   it("Categorizes rows", {
     netting_data <- tibble::tibble(Puntuacion_parche_incubacion = c(0, 1, 1.5, 2, 3, 4, 4.5, 5))
     obtained <- get_incubation_category(netting_data)
