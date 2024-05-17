@@ -15,7 +15,6 @@ describe("Plot incubation categories", {
     expect_equal(obtained$plot$labels$title[[1]], expected_title)
     expected_background <- "transparent"
     expect_equal(obtained$plot$theme$panel.background[[1]], expected_background)
-    print(obtained$plot$theme$plot.title$face)
     expect_equal(obtained$plot$theme$plot.title$face, "bold")
   })
 })
@@ -29,7 +28,9 @@ describe("Plot incubation categories", {
     )
     obtained <- summarize_by_category_and_month(netting_data_with_category)
     expect_true("Month" %in% names(obtained))
-    expect_equal(obtained[[1, "Month"]], "Apr")
+    obtained_month <- as.character(obtained["Month"]$Month[1])
+    print(obtained_month)
+    expect_equal(obtained_month, "Apr")
     expected <- tibble::tibble(
       Month = c(rep("Apr", 2), rep("May", 3)),
       number_of_individuals = c(2, 1, 1, 1, 1),
