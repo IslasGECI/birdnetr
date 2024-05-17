@@ -29,6 +29,10 @@ barchart_incubation_categories <- function(assp_individual_per_category, year) {
     ggplot2::theme_classic() +
     ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5)) +
     ggplot2::theme(plot.title = ggplot2::element_text(face = "bold")) +
+    ggplot2::theme(
+      panel.background = ggplot2::element_rect(fill = "transparent"),
+      plot.background = ggplot2::element_rect(fill = "transparent", colour = NA)
+    ) +
     ggplot2::scale_fill_manual(values = c(
       "#99ccff",
       "#66cc99",
