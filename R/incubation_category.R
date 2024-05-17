@@ -2,7 +2,8 @@ summarize_by_category_and_month <- function(netting_data_with_category) {
   months <- lubridate::month(netting_data_with_category$Fecha, label = TRUE)
   netting_data_with_category |>
     dplyr::mutate("Month" = as.character(months)) |>
-    dplyr::mutate("number_of_individuals" = 1)
+    dplyr::group_by(Month, incubation_category) |>
+    dplyr::summarise(number_of_individuals = dplyr::n())
 }
 
 get_incubation_category <- function(netting_data) {
