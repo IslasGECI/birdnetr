@@ -1,0 +1,47 @@
+Fecha,Hora_captura,Hora_inicio,Hora_final,Isla,Islote,Sitio_o_colonia,Especie,ID_anillo_metalico,ID_anillo_plastico,Color_plastico,Edad,Longitud_pico,Masa,Longitud_ala,Longitud_pluma_interior_de_la_cola,Longitud_pluma_exterior_de_la_cola,Cantidad_de_redes,Tiene_parche_incubacion,Porcentaje_parche_incubacion,Puntuacion_parche_incubacion,CPUE,Cantidad_de_recapturas,Analizar_CPUE,Observaciones,Anillador,Otros_sitios,Viento_inicial,Viento_1_hr,Viento_2_hr,Viento_3_hr,Niebla,Cielo,Luna
+2016-06-06,00:11:00,21:00:00,02:00:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX01201,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016-06-06,00:17:00,21:00:00,02:00:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX01202,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016-06-10,NA,21:00:00,01:00:00,Coronado,Terrón de Azúcar,NA,Hydrobates homochroa,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-12,NA,21:00:00,00:00:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07728,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-12,NA,21:00:00,00:00:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07735,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-12,NA,21:00:00,00:00:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07736,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,22:50:00,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07754,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,23:04:00,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07757,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,23:09:00,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07758,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,23:14:00,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07759,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07737,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07738,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07739,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07740,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07741,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07742,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07743,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07744,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-07-13,NA,21:18:00,23:18:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07745,NA,NA,NA,NA,NA,NA,NA,NA,1,no,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2017-08-30,01:34:00,21:00:00,02:00:00,Todos Santos,Todos Santos Norte,NA,Hydrobates homochroa,MX07833,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-06-24,00:00:00,21:30:00,01:00:00,Coronado,Terrón de Azúcar,NA,Hydrobates homochroa,MX07615,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-06-24,NA,21:30:00,01:00:00,Coronado,Terrón de Azúcar,NA,Hydrobates homochroa,4501-37983,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Captura nueva,NA,1,Anillado el 22/Jul/2017 en San Clemente Island,NA,1,NA,NA,NA,NA,NA,NA,NA
+2018-07-10,00:02:00,20:50:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07847,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-10,00:20:00,20:50:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07848,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-10,00:30:00,20:50:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07849,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07873,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07874,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07875,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07876,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07877,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07878,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2018-07-14,NA,21:00:00,00:30:00,Todos Santos,Todos Santos Sur,NA,Hydrobates homochroa,MX07865,NA,NA,NA,NA,NA,NA,NA,NA,1,si,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-29,00:00:00,NA,NA,Todos Santos,Todos Santos Sur,NA,Pelecanus occidentalis,MX04949,X119,Rojo,Volantón,NA,NA,NA,NA,NA,NA,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-29,00:00:00,NA,NA,Todos Santos,Todos Santos Sur,NA,Pelecanus occidentalis,MX04958,X128,Rojo,Volantón,NA,NA,NA,NA,NA,NA,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-29,00:00:00,NA,NA,Todos Santos,Todos Santos Sur,NA,Pelecanus occidentalis,MX04959,X129,Rojo,Volantón,NA,NA,NA,NA,NA,NA,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-06-29,00:00:00,NA,NA,Todos Santos,Todos Santos Sur,NA,Pelecanus occidentalis,MX04960,X130,Rojo,Volantón,NA,NA,NA,NA,NA,NA,NA,NA,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-02,21:12:00,21:00:00,00:00:00,Coronado,Coronado Norte,NA,Hydrobates melania,MX08133,NA,NA,Adulto,NA,71,NA,NA,NA,NA,NA,100,NA,Captura nueva,NA,1,Sin vascularizar,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-02,22:32:00,21:00:00,00:00:00,Coronado,Coronado Norte,NA,Hydrobates melania,MX08140,NA,NA,Adulto,NA,62.6,NA,NA,NA,NA,NA,100,NA,Captura nueva,NA,1,Sin vascularizar,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-02,23:40:00,21:00:00,00:00:00,Coronado,Coronado Norte,NA,Hydrobates homochroa,MX11108,NA,NA,Adulto,13.97,34.8,NA,NA,NA,1,no,0,NA,Captura nueva,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-02,22:47:00,21:00:00,00:00:00,Coronado,Coronado Norte,NA,Hydrobates melania,MX08114,NA,NA,Adulto,NA,62,NA,NA,NA,NA,NA,100,NA,Recaptura,NA,1,Vascularizado y Recaptura,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2019-07-02,21:29:00,21:00:00,00:00:00,Coronado,Coronado Norte,NA,Hydrobates melania,MX08135,NA,NA,Adulto,NA,NA,NA,NA,NA,NA,NA,100,NA,Captura nueva,NA,1,Sin vascularizar,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2022-04-01,23:22:00,20:20:00,23:50:00,Todos Santos,Todos Santos Sur,Punta Sur,Hydrobates homochroa,MX11234,NA,NA,Adulto,NA,35.1,NA,NA,NA,NA,NA,NA,0,Captura nueva,NA,1,"Initial no fog, 1 y 2 horas light",NA,NA,4.4,0.7,2.8,2,Light fog,Clear,0
+2022-04-27,23:14:00,20:30:00,00:00:00,Todos Santos,Todos Santos Sur,Punta Sur,Hydrobates homochroa,MX11300,NA,NA,Adulto,NA,32.4,NA,NA,NA,NA,NA,NA,0,Captura nueva,NA,1,NA,NA,NA,4,2,2.6,0,No fog,Overcast,0
+2022-04-27,23:23:00,20:30:00,00:00:00,Todos Santos,Todos Santos Sur,Punta Sur,Hydrobates homochroa,MX11301,NA,NA,Adulto,NA,36.8,NA,NA,NA,NA,NA,NA,4,Captura nueva,NA,1,"Presenta ""pins"". Hay foto",NA,NA,4,2,2.6,0,No fog,Overcast,0
+2022-04-27,23:33:00,20:30:00,00:00:00,Todos Santos,Todos Santos Sur,Punta Sur,Hydrobates homochroa,MX11302,NA,NA,Adulto,NA,30.8,NA,NA,NA,NA,NA,NA,1.5,Captura nueva,NA,1,NA,NA,NA,4,2,2.6,0,No fog,Overcast,0
+
