@@ -19,3 +19,11 @@ filter_assp_species_in_todos_santos <- function(netting_data) {
     filter_assp_species() |>
     dplyr::filter(Isla == island_name)
 }
+
+barchart_incubation_categories <- function(assp_individual_per_category) {
+  plt <- ggplot2::ggplot(assp_individual_per_category, ggplot2::aes(fill = incubation_category, y = number_of_individuals, x = Month)) +
+    ggplot2::geom_bar(position = "fill", stat = "identity") +
+    ggplot2::ylab("Proportion of individuals")
+  ggplot2::ggsave("prueba.png")
+  ggplot2::ggplot_build(plt)
+}
