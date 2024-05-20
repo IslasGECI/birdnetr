@@ -7,7 +7,7 @@ plot_incubation_categories_proportion <- function(arguments) {
     filter_by_year(year) |>
     filter_assp_species_in_todos_santos() |>
     get_incubation_category() |>
-    summarize_by_category_and_month() |>
-    barchart_incubation_categories(year)
+    summarize_by_category_and_month()
+  barchart_incubation_categories(data_for_plot, year)
   ggplot2::ggsave(output_path, bg = "transparent")
 }
