@@ -9,7 +9,7 @@ setup_data_for_incubation_categories_barchart <- function(netting_data, year) {
 summarize_by_category_and_month <- function(netting_data_with_category) {
   months <- lubridate::month(netting_data_with_category$Fecha, label = TRUE)
   netting_data_with_category |>
-    dplyr::mutate("Month" = as.character(months)) |>
+    dplyr::mutate("Month" = months) |>
     dplyr::group_by(Month, incubation_category) |>
     dplyr::summarise(number_of_individuals = dplyr::n())
 }

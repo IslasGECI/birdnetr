@@ -26,8 +26,9 @@ describe("Plot incubation categories", {
     obtained <- summarize_by_category_and_month(netting_data_with_category)
 
     expect_true("Month" %in% names(obtained))
-    obtained_month <- obtained[[1, "Month"]]
-    expect_equal(obtained_month, "Apr")
+    obtained_month <- obtained["Month"]$Month[[1]]
+    expect_true("Apr" %in% obtained["Month"]$Month[[1]])
+    expect_true("May" %in% obtained["Month"]$Month[[3]])
 
     expect_true("number_of_individuals" %in% names(obtained))
 
