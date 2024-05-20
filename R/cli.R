@@ -9,4 +9,5 @@ plot_incubation_categories_proportion <- function(arguments) {
     get_incubation_category() |>
     summarize_by_category_and_month() |>
     barchart_incubation_categories(year)
+  ggplot2::ggsave(output_path, bg = "transparent")
 }
