@@ -42,6 +42,11 @@ describe("Plot incubation categories", {
     obtained <- filter_by_year(netting_data_with_category, year)
     expected_rows <- 5
     expect_equal(nrow(obtained), expected_rows)
+
+    year <- c(2020, 2021)
+    obtained <- filter_by_year(netting_data_with_category, year)
+    expected_rows <- 6
+    expect_equal(nrow(obtained), expected_rows)
   })
 })
 
