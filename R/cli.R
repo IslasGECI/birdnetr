@@ -4,7 +4,7 @@ plot_incubation_categories_proportion <- function(arguments) {
   output_path <- arguments[["output_path"]]
   netting_data <- readr::read_csv(netting_data_path, show_col_types = FALSE)
   data_for_plot <- netting_data |>
-    dplyr::filter(stringr::str_sub(Fecha, 4) == year) |>
+    filter_by_year(year) |>
     filter_assp_species_in_todos_santos() |>
     get_incubation_category() |>
     summarize_by_category_and_month() |>
