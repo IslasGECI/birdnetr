@@ -1,3 +1,4 @@
+#' @export
 plot_incubation_categories_proportion <- function(arguments) {
   netting_data_path <- arguments[["input_data"]]
   year <- as.character(arguments[["year"]])

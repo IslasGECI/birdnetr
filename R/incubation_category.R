@@ -16,7 +16,7 @@ summarize_by_category_and_month <- function(netting_data_with_category) {
 
 filter_by_year <- function(netting_data_with_category, year) {
   netting_data_with_category |>
-    dplyr::filter(stringr::str_sub(Fecha, end = 4) == year)
+    dplyr::filter(stringr::str_sub(Fecha, end = 4) %in% year)
 }
 
 get_incubation_category <- function(netting_data) {
