@@ -5,14 +5,11 @@ describe("Plot incubation categories", {
       number_of_individuals = c(3, 7, 15, 2),
       incubation_category = c("1", "5", "3", "5"),
     )
-    year <- 2021
-    obtained <- barchart_incubation_categories(assp_individual_per_category, year)
+    obtained <- barchart_incubation_categories(assp_individual_per_category)
     expected_x <- "Month"
     expect_equal(obtained$plot$labels$x[[1]], expected_x)
     expected_y <- "Proportion of individuals"
     expect_equal(obtained$plot$labels$y[[1]], expected_y)
-    expected_title <- 2021
-    expect_equal(obtained$plot$labels$title[[1]], expected_title)
     expected_background <- "transparent"
     expect_equal(obtained$plot$theme$panel.background[[1]], expected_background)
     expect_equal(obtained$plot$theme$plot.title$face, "bold")
