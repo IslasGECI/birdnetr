@@ -6,6 +6,11 @@ summarize_by_category_and_month <- function(netting_data_with_category) {
     dplyr::summarise(number_of_individuals = dplyr::n())
 }
 
+filter_by_year <- function(netting_data_with_category, year) {
+  netting_data_with_category |>
+    dplyr::filter(stringr::str_sub(Fecha, end = 4) == year)
+}
+
 get_incubation_category <- function(netting_data) {
   raw_categories <- c(0, 1, 1.5, 2, 3, 4, 4.5, 5)
   new_categories <- c(1, 2, 2, 3, 3, 4, 4, 1)
