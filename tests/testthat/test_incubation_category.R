@@ -21,11 +21,11 @@ describe("Plot incubation categories", {
 
 
 describe("Plot incubation categories", {
+  netting_data_with_category <- tibble::tibble(
+    Fecha = c("2020-04-12", "2020-04-01", "2020-05-08", "2020-05-13", "2020-05-21", "2020-04-07"),
+    incubation_category = c("1", "1", "5", "4", "3", "2"),
+  )
   it("Test plot properties", {
-    netting_data_with_category <- tibble::tibble(
-      Fecha = c("2020-04-12", "2020-04-01", "2020-05-08", "2020-05-13", "2020-05-21", "2020-04-07"),
-      incubation_category = c("1", "1", "5", "4", "3", "2"),
-    )
     obtained <- summarize_by_category_and_month(netting_data_with_category)
 
     expect_true("Month" %in% names(obtained))
@@ -36,6 +36,12 @@ describe("Plot incubation categories", {
 
     expected_nrows <- 5
     expect_equal(nrow(obtained), expected_nrows)
+  })
+  it("filter by year", {
+    year <- 2020
+    obtained <- filter_by_year(netting_data_with_category, year)
+    expected_rows <- 5
+    expect_equal(nrow(obtained), expected_rows)
   })
 })
 
