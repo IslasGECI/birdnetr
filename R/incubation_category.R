@@ -42,8 +42,12 @@ filter_assp_species_in_todos_santos <- function(netting_data) {
 }
 
 barchart_incubation_categories <- function(assp_individual_per_category) {
+  summarized_data <- assp_individual_per_category |>
+    dplyr::summarise(N = sum(number_of_individuals))
+  labels_individual_per_month <- glue::glue("n = {summarized_data$N}")
   plt <- ggplot2::ggplot(assp_individual_per_category, ggplot2::aes(fill = incubation_category, y = number_of_individuals, x = Month)) +
     ggplot2::geom_bar(position = "fill", stat = "identity") +
+    ggplot2::annotate("text", x = 1:(length(labels_individual_per_month)), y = -0.05, label = labels_individual_per_month) +
     ggplot2::ylab("Proportion of individuals") +
     ggplot2::labs(fill = "Patch") +
     ggplot2::theme_classic() +
