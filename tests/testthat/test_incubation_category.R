@@ -22,7 +22,7 @@ describe("Plot incubation categories", {
 
 describe("Plot incubation categories", {
   netting_data_with_category <- tibble::tibble(
-    Fecha = c("2020-04-12", "2020-04-01", "2020-05-08", "2020-05-13", "2020-05-21", "2020-04-07"),
+    Fecha = c("2020-04-12", "2021-04-01", "2020-05-08", "2020-05-13", "2020-05-21", "2020-04-07"),
     incubation_category = c("1", "1", "5", "4", "3", "2"),
   )
   it("Test plot properties", {
