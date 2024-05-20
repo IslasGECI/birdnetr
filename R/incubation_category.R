@@ -1,3 +1,11 @@
+setup_data_for_incubation_categories_barchart <- function(netting_data, year) {
+  data_for_plot <- netting_data |>
+    filter_by_year(year) |>
+    filter_assp_species_in_todos_santos() |>
+    get_incubation_category() |>
+    summarize_by_category_and_month()
+}
+
 summarize_by_category_and_month <- function(netting_data_with_category) {
   months <- lubridate::month(netting_data_with_category$Fecha, label = TRUE)
   netting_data_with_category |>
