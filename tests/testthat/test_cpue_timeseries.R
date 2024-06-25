@@ -5,7 +5,7 @@ describe("Write CPUE time series", {
     Especie = c(rep("Hydrobates homochroa", 3), rep("Hydrobates", 2), "Hydrobates homochroa")
   )
   it("select maximum cpue by year", {
-    obtained <- maximum_cpue_by_year(cpue_data)
+    obtained <- maximum_cpue_by_year_for_assp(cpue_data)
     obtained_rows <- nrow(obtained)
     expected_rows <- 3
     expect_equal(obtained_rows, expected_rows)
