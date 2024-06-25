@@ -9,3 +9,10 @@ plot_incubation_categories_proportion <- function(arguments) {
   barchart_incubation_categories(data_for_plot)
   ggplot2::ggsave(output_path, bg = "transparent")
 }
+
+#' @export
+maximum_cpue_timeseries_for_assp <- function(arguments) {
+  cpue_data <- readr::read_csv(arguments[["cpue-per-day-path"]], show_col_types = FALSE)
+  cpue_timeseries <- maximum_cpue_by_year_for_assp(cpue_data)
+  readr::write_csv(cpue_timeseries, arguments[["max-cpue-timeseries-path"]])
+}
