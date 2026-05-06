@@ -1,4 +1,4 @@
-FROM islasgeci/base:1.0.0
+FROM islasgeci/base:22.04
 COPY . /workdir
 
 RUN R -e "remotes::install_github(c('IslasGECI/testtools', 'IslasGECI/optparse'), build_vignettes=FALSE, upgrade = 'always')"
